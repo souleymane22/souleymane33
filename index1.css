@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family : 'Poppins', sans empattement ;;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300px;
+    color: #111;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+   
+}
+.logo{
+    /*color: #fff;*/
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: none;
+    
+}
+
+.logo span {
+    color: green;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left:30px;
+    font-weight: 700px;
+    font-size: 15px;
+    
+}
+.btn-Commande{
+    padding: 10px 20px;
+    background: orange;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-Commande:hover{
+    background: greenyellow;
+    transition: ease-out;
+}
+
+header .navbar li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.DOU{
+    background-image: url(pe2.jpeg);
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.DOU .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.DOU .contenu h2{
+    color: #A9DB5E;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.contenu p {
+
+    color: #fff;
+    font-size: 1.2em;
+    padding-bottom: 11px;
+}
+.bint1{
+    font-size: 1em;
+    color: #fff;
+    background: orange;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.bint2{
+    font-size: 1em;
+    color: #fff;
+    background: green;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.bint1:hover{
+    letter-spacing: 4px;
+}
+.bint2:hover{
+    letter-spacing: 4px;
+}
+
+section {
+    padding: 100px;
+
+}
+.range1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.range1 .image1{
+     position: relative;
+     width: 48%;
+     justify-content: center;
+     align-items: center;
+}
+.range1 .image1 h2 {
+    margin-bottom:20px ;
+
+}
+.titretexte{
+    color: black;
+    font-size: 2em;
+    font-weight: 300px;
+    color: green;
+    text-decoration: underline  green;
+}
+
+
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jusdipo{
+    margin-top: -100px;
+}
+.jusdipo .contien {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.jusdipo .contien .box {
+    width:350px; 
+    margin-top: 18px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0,0.8);
+    
+}
+.jusdipo .contien  .box .dbox {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.jusdipo .contien  .box .dbox img {
+    position: relative;
+    top: 0;
+    left: 0 ;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+      
+}
+.jusdipo .contien  .box .textim{
+    text-align: center;
+    font-weight: 300px;
+    color: green;
+}
+.jusdipo .contien  .box .textim h3{
+    font-weight: 400px;
+}
+.equip{
+    margin-top: -100px;
+}
+.equip .contien {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.equip .contien .box{
+    width: 240px;
+    margin: 15px;
+}
+.equip .contien .box img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+}
+.equip .contien .box h3 {
+    color: #111;
+    font-weight: 400px;
+    text-align: center;
+}
+
+.contact {
+    background-image: url(tout.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.8);
+    width: 100%;
+    background-position: unset;
+}
+.contactform{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0,0,0,0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactform h3 {
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.contact h2 {
+    color: green;
+    text-decoration: underline;
+}
+.contactform .inputboite input, 
+.contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300px;
+    resize: none;
+
+}
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: green;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0,5s;
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+
+}
+.rith{
+    padding: 20px 40px ;
+    border-top: 2px solid rgba(0,0,0,0.1);
+    background: rgba(228,222,222);
+}
+.rith p:nth-child(1){
+    color: #333;
+
+}
+.rith{
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+header.sticky {
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+    background-color: black;
+
+}
+header.sticky .logo{
+    color: white;
+}
+header.sticky .navbar li a{
+    color: white;
+}
+header.sticky li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.sous {
+    position: absolute;
+    display: none;
+}
+.navbar li:hover .sous{
+    display: block;
+}

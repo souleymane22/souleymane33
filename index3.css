@@ -1,0 +1,74 @@
+
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+    background-color: black;
+   
+}
+.logo{
+    /*color: #fff;*/
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+.logo span {
+    color: green;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left:30px;
+    font-weight: 700px;
+    font-size: 15px;
+    
+}
+.btn-Commande{
+    padding: 10px 20px;
+    background: orange;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-Commande:hover{
+    background: greenyellow;
+    transition: ease-out;
+}
+
+header .navbar li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.dio{
+    padding-top: -100px;
+    margin-top: 140px;
+    align-items: center;
+}
+.mod{
+    font-size: 1.5em;
+    font-weight: 500px;
+    color: green;
+}
+.sous {
+    position: absolute;
+    display: none;
+}
+.navbar li:hover .sous{
+    display: block;
+}

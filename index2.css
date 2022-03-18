@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family : 'Poppins', sans empattement ;;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+.logo{
+    /*color: #fff;*/
+    font-weight: bold;
+    font-size: 2.5em;
+    text-decoration: none;
+    font-family: fantasy;;
+    
+}
+
+.logo span {
+    color: green;
+    
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left:30px;
+    font-weight: 700px;
+    font-size: 15px;
+    
+}
+.btn-Commande{
+    padding: 10px 20px;
+    background: orange;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.btn-Commande:hover{
+    background: greenyellow;
+    transition: ease-out;
+}
+
+header .navbar li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.DOU{
+    background-image: url(mango.jpg);
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    
+}
+.contactform{
+    padding: 50px 50px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0,0,0,0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+}
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contactform h3 {
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-decoration: underline green;
+    text-align: center;
+}
+.contactform .inputboite input, 
+.contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300px;
+    resize: none;
+
+}
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background: green;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    outline: none;
+    border: none;
+    transition: 0,5s;
+    max-width: 140px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.rith{
+    padding: 20px 40px ;
+    border-top: 2px solid rgba(0,0,0,0.1);
+    background: rgba(228,222,222);
+}
+.rith p:nth-child(1){
+    color: #333;
+
+}
+.rith{
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+

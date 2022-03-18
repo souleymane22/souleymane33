@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*¨PARTI MENU*/
+.lt{
+    position: fixed;
+    display: flex;
+}
+
+.tout{
+    width: 100%;
+   
+    padding: px;
+    background-color: white;
+    color: white;
+    padding: 4px;
+    background-color: black;
+    animation: clignote 5s linear infinite;
+}
+.tout .lt  {
+    width: 100%;
+    text-align: center;
+   
+}
+@keyframes clignote {  
+  50% { opacity: 0; }
+}
+
+.Menu .oi  {
+   
+ width: 100%;
+    
+    margin: 0px;
+    padding: auto;
+   
+    justify-content: space-between;
+    position :fixed;
+    display: flex;
+    padding: 10px;
+    background-color: green;
+    
+} 
+.Menu .contt li {
+    display: inline-flex;
+    margin-left: 25px;
+    margin-top: 5px;
+    text-align: center; 
+}
+.Menu .contt {
+   padding-left: 40%;
+}
+.Menu .contt a{
+    color: white;
+    font-size: 17px;
+    font-weight: 600px;
+    font-family: Florence, cursive;;
+}
+.Menu .contt a:hover {
+   color: ;
+   background-color: red;
+    border-radius: 2px;
+    padding: 4px;   
+}
+.Menu{
+    position: fixed;
+}
+.sous {
+    position: absolute;
+    display: none;
+}
+.sous li {
+    background-color: green;
+    width: 50%;
+}
+.op li:hover .sous{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

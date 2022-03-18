@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.propos{
+    margin: 100px;
+    padding: 100px;
+}
+.propos .pir{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.propos .pir img{
+   width: 600px;
+   height: 300px; 
+  
+   
+}
+.propos .pir {
+    display: flex;
+    justify-content: space-between;
+}
+.propos h1 {
+    font-size: 50px;
+    font-family: Goudy Old Style;
+    text-align: center;
+    text-decoration: underline crimson;
+}
+
+/*barrr de ;e*/
+
+.menu{
+    width: 100%;
+    background-color: green;
+    position: fixed;
+    padding: 18px;
+    display: flex;
+}
+.menu .max{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+   
+}
+.menu .max li {
+    display: inline;
+    margin: 10px;
+    font-size: 21px;
+   font-weight: 400px;
+    padding-top: 20px;
+   
+}
+.menu .max a{
+    color: white;
+    text-align: center;
+    font-family: Goudy Old Style;
+
+
+
+transition: margin-right 2s ease-in-out .5s;
+
+
+    
+}
+.menu .max .di{
+    text-align: center;
+    padding-left: 13%;
+    padding-top: 1%;
+
+}
+.menu .max  a:hover{
+    
+    transition: 1s;
+    color: black;
+   
+  
+}
+.menu .max .TRQ{
+    color:  white;
+    font-size: 20px;
+}
+.ko{
+    color:white ;
+    background-color: black;
+    text-align: center;
+    display: flex;
+}
+.max .tou {
+    color: #5BF562;
+    font-size: 35px;  
+}
